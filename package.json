@@ -1,0 +1,32 @@
+{
+  "name": "@hand-on-web/whatsapp-bot-template",
+  "version": "1.0.0",
+  "description": "Starter template for WhatsApp Business API bots with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "homepage": "https://www.handonweb.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hand-On-Web-Ltd/whatsapp-bot-template.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "whatsapp-business-api",
+    "chatbot",
+    "nodejs"
+  ],
+  "author": "Hand On Web Ltd <outreach@handonweb.com> (https://www.handonweb.com)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0",
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
